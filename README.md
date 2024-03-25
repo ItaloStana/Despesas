@@ -1,5 +1,7 @@
 # Despesas
-Um novo projeto flutter.
+Dando continuidade no meu aprendizado de Flutter, aqui está o meu segundo app desenvolvido, um app de despesas pessoais, onde consigo me organizar mais facilmente.
+Aqui aprendi mais sobre a utilização dos widgets no flutter, dentro de column, rows e em containers, também como implementar um formulário e um gráfico em meu app.
+Um app bem simples, mas estou gostando bastante do flutter em si e sua curva de aprendizado.
 
 ## Getting Started
 
