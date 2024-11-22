@@ -1,17 +1,48 @@
-# Despesas
-Dando continuidade no meu aprendizado de Flutter, aqui está o meu segundo app desenvolvido, um app de despesas pessoais, onde consigo me organizar mais facilmente.
-Aqui aprendi mais sobre a utilização dos widgets no flutter, dentro de column, rows e em containers, também como implementar um formulário e um gráfico em meu app.
-Um app bem simples, mas estou gostando bastante do flutter em si e sua curva de aprendizado.
+###Despesas - App de Organização Financeira###
 
-## Getting Started
+Dando continuidade ao meu aprendizado em Flutter, desenvolvi este app de despesas pessoais. Ele foi projetado para ajudar na organização financeira de forma simples e prática. Durante o desenvolvimento, aprofundei meus conhecimentos em Flutter, explorando a utilização de widgets, layouts com Column, Row e Container, além de implementar um formulário e um gráfico interativo no app.
 
-This project is a starting point for a Flutter application.
+Embora seja um projeto simples, ele representa um marco importante na minha jornada com Flutter, mostrando sua flexibilidade e curva de aprendizado acessível. Estou animado com as possibilidades que esta ferramenta proporciona!
 
-A few resources to get you started if this is your first Flutter project:
+Funcionalidades
+Cadastro de transações financeiras (com título, valor e data).
+Exibição de uma lista dinâmica das transações cadastradas.
+Gráfico semanal mostrando a proporção de gastos por dia.
+Interface responsiva e amigável para dispositivos móveis.
+Aprendizados
+Estruturação de layouts utilizando Column, Row e Container.
+Gerenciamento de estado em Flutter.
+Criação e validação de formulários interativos.
+Implementação de gráficos dinâmicos para visualização de dados.
+Melhoria na organização e reaproveitamento de código através de componentes personalizados.
+Screenshots
+Adicione aqui imagens do seu app para torná-lo mais visual e atrativo!
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Como Executar
+Clone o repositório:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Copiar código
+git clone https://github.com/ItaloStana/Despesas.git
+Instale as dependências:
+No terminal, acesse a pasta do projeto e rode:
+
+bash
+Copiar código
+flutter pub get
+Execute o app:
+Conecte um dispositivo ou inicie um emulador e rode:
+
+bash
+Copiar código
+flutter run
+Recursos Úteis
+Se você está começando no Flutter, aqui estão algumas referências úteis:
+
+Documentação oficial do Flutter
+Lab: Criando seu primeiro app em Flutter
+Cookbook: Exemplos úteis em Flutter
+Sobre o Desenvolvedor
+Desenvolvido por Ítalo - um entusiasta do Flutter e apaixonado por desenvolvimento mobile.
+Este é o meu segundo app em Flutter, e ele reflete meu progresso na jornada de aprendizado em desenvolvimento de aplicativos.
+Conecte-se comigo no LinkedIn para acompanhar mais projetos e colaborações!
