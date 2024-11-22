@@ -1,7 +1,6 @@
 import 'package:expenses/components/transaction_form.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
-import 'components/transaction_form.dart';
 import 'components/transaction_list.dart';
 import 'components/chart.dart';
 import 'models/transaction.dart';
@@ -18,26 +17,30 @@ class ExpensesApp extends StatelessWidget {
       home: const MyHomePage(),
       theme: tema.copyWith(
         colorScheme: tema.colorScheme.copyWith(
-          primary: Colors.purple,
-          secondary: Colors.amber,
+          primary: Colors.blue,
+          secondary: Color.fromARGB(255, 0, 86, 156),
         ),
         textTheme: tema.textTheme.copyWith(
-          headline6: const TextStyle(
+          titleLarge: const TextStyle(
             fontFamily: 'OpenSans',
             fontSize: 18,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
-          button: const TextStyle(
-            color: Colors.purple,
+          labelLarge: const TextStyle(
+            color: Colors.black,
             fontWeight: FontWeight.bold,
           ),
         ),
         appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          color: Color.fromARGB(255, 0, 86, 156),
+          toolbarHeight: 70,
           titleTextStyle: TextStyle(
             fontFamily: 'OpenSans',
             fontSize: 20,
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         ),
       ),
@@ -115,8 +118,11 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.amberAccent,
-        child: const Icon(Icons.add),
+        backgroundColor: Color.fromARGB(255, 0, 86, 156),
+        child: const Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
         onPressed: () => _openTransactionFormModal(context),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,

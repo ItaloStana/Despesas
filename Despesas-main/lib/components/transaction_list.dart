@@ -19,7 +19,9 @@ class TransactionList extends StatelessWidget {
                 const SizedBox(height: 20),
                 Text(
                   'Nenhuma Transação Cadastrada!',
-                  style: Theme.of(context).textTheme.headline6,
+                  style: TextStyle(
+                    color: Colors.black,
+                  ),
                 ),
                 const SizedBox(height: 20),
                 SizedBox(
@@ -43,7 +45,7 @@ class TransactionList extends StatelessWidget {
                   ),
                   child: ListTile(
                     leading: CircleAvatar(
-                      backgroundColor: Colors.purple,
+                      backgroundColor: Color.fromARGB(255, 0, 86, 156),
                       radius: 30,
                       child: Padding(
                         padding: const EdgeInsets.all(6),
@@ -59,14 +61,16 @@ class TransactionList extends StatelessWidget {
                     ),
                     title: Text(
                       tr.title,
-                      style: Theme.of(context).textTheme.headline6,
+                      style: TextStyle(
+                        color: Colors.black,
+                      ),
                     ),
                     subtitle: Text(
                       DateFormat('d MMM y').format(tr.date),
                     ),
                     trailing: IconButton(
                       icon: const Icon(Icons.delete),
-                      color: Theme.of(context).errorColor,
+                      color: Colors.red,
                       onPressed: () => onRemove(tr.id),
                     ),
                   ),
